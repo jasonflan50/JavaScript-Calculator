@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="jsCalc.css">
+    <script src="jsCalc.js" defer></script>
+    <title>JavaScript Calculator</title>
+</head>
+<body>
+    <div class="main">
+        <div class="calc-container">
+            <div class="calc-display-old col-span-4">0</div>
+            <div class="calc-display col-span-4">0</div>
+            <button onclick="blur()" class="calc-button col-span-2 clear">Clear</button>
+            <button onclick="blur()" class="calc-button col-span-2 backspace">Backspace</button>
+
+            <button onclick="blur()" class="calc-button">7</button>
+            <button onclick="blur()" class="calc-button">8</button>
+            <button onclick="blur()" class="calc-button">9</button>
+            <button onclick="blur()" class="calc-button">/</button>
+
+            <button onclick="blur()" class="calc-button">4</button>
+            <button onclick="blur()" class="calc-button">5</button>
+            <button onclick="blur()" class="calc-button">6</button>
+            <button onclick="blur()" class="calc-button">x</button>
+
+            <button onclick="blur()" class="calc-button">1</button>
+            <button onclick="blur()" class="calc-button">2</button>
+            <button onclick="blur()" class="calc-button">3</button>
+            <button onclick="blur()" class="calc-button">-</button>
+
+            <button onclick="blur()" class="calc-button">.</button>
+            <button onclick="blur()" class="calc-button">0</button>
+            <button onclick="blur()" class="calc-button">=</button>
+            <button onclick="blur()" class="calc-button">+</button>
+        </div>
+        
+    <footer class="footer">
+        <p>
+        Copyright ©
+        <script>
+            document.write(new Date().getFullYear())
+        </script>
+        <a href="https://github.com/jasonflan50">
+        Jason Flanagan</a>
+        </p> 
+    </footer>
+    </div>
+</body>
+</html>
