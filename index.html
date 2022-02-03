@@ -12,30 +12,30 @@
 <body>
     <div class="main">
         <div class="calc-container">
-            <div class="calc-display-old col-span-4">0</div>
-            <div class="calc-display col-span-4">0</div>
-            <button onclick="blur()" class="calc-button col-span-2 clear">Clear</button>
-            <button onclick="blur()" class="calc-button col-span-2 backspace">Backspace</button>
+            <div id="display-old" class="calc-display-old col-span-4"></div>
+            <div id="display-current" class="calc-display col-span-4">0</div>
+            <button id="clear" class="calc-button col-span-2 clear">Clear</button>
+            <button id="backspace" class="calc-button col-span-2 backspace">Backspace</button>
 
-            <button onclick="blur()" class="calc-button">7</button>
-            <button onclick="blur()" class="calc-button">8</button>
-            <button onclick="blur()" class="calc-button">9</button>
-            <button onclick="blur()" class="calc-button">/</button>
+            <button class="calc-button" data-number>7</button>
+            <button class="calc-button" data-number>8</button>
+            <button class="calc-button" data-number>9</button>
+            <button class="calc-button" data-operator>/</button>
 
-            <button onclick="blur()" class="calc-button">4</button>
-            <button onclick="blur()" class="calc-button">5</button>
-            <button onclick="blur()" class="calc-button">6</button>
-            <button onclick="blur()" class="calc-button">x</button>
+            <button class="calc-button" data-number>4</button>
+            <button class="calc-button" data-number>5</button>
+            <button class="calc-button" data-number>6</button>
+            <button class="calc-button" data-operator>x</button>
 
-            <button onclick="blur()" class="calc-button">1</button>
-            <button onclick="blur()" class="calc-button">2</button>
-            <button onclick="blur()" class="calc-button">3</button>
-            <button onclick="blur()" class="calc-button">-</button>
+            <button class="calc-button" data-number>1</button>
+            <button class="calc-button" data-number>2</button>
+            <button class="calc-button" data-number>3</button>
+            <button class="calc-button" data-operator>-</button>
 
-            <button onclick="blur()" class="calc-button">.</button>
-            <button onclick="blur()" class="calc-button">0</button>
-            <button onclick="blur()" class="calc-button">=</button>
-            <button onclick="blur()" class="calc-button">+</button>
+            <button class="calc-button">.</button>
+            <button class="calc-button" data-number>0</button>
+            <button id="equals" class="calc-button">=</button>
+            <button class="calc-button" data-operator>+</button>
         </div>
         
     <footer class="footer">
